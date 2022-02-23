@@ -23,7 +23,7 @@ const create_item = () => {
 
   item.addEventListener('dragstart', event => event.dataTransfer.setData('text', event.target.id));
   item.addEventListener('dragend', event => event.dataTransfer.clearData());
-  let input = createElement.input;
+  let input = createElement(input);
   input.appendChild(item);
 
 
