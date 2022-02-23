@@ -9,7 +9,7 @@ add_btn.addEventListener('click', () => {
   const target = document.querySelector('#requested');
   if (adding == false) {
     adding = true;
-    target.appendChild(create_item());
+    target.appendChild(create_item(item = document.createElement('div')));
   } else {
     error.innerHTML = message;
   }
