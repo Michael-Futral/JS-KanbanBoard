@@ -40,8 +40,12 @@ const create_item = () => {
     }
     else {
       error.innerHTML = message;
-    }
+    };
   });
+
+  item.appendChild(save_btn);
+
+  return item;
 };
 
 document.querySelectorAll('.drop').forEach(element => {
