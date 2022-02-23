@@ -37,7 +37,10 @@ const create_item = () => {
       order++;
       item.innerHTML = input.value;
       adding = false;
-    };
+    }
+    else {
+      error.innerHTML = message;
+    }
   });
 };
 
