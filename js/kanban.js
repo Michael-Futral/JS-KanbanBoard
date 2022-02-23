@@ -9,13 +9,14 @@ add_btn.addEventListener('click', () => {
   const target = document.querySelector('#requested');
   if (adding == false) {
     adding = true;
-    target.appendChild(create_item(item = document.createElement('div')));
+    target.appendChild(create_item());
   } else {
     error.innerHTML = message;
   }
 });
 
 const create_item = () => {
+  document.createElement('div');
 };
 
 document.querySelectorAll('.drop').forEach(element => {
