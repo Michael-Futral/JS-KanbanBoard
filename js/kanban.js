@@ -1,3 +1,5 @@
+const { Doc } = require("mocha/lib/reporters");
+
 let order = 1;
 let adding = false;
 
@@ -26,9 +28,8 @@ const create_item = () => {
   let input = document.createElement('input');
   item.appendChild(input);
 
-
-
-
+  let save_btn = document.createElement('button');
+  save_btn.document.innerHTML('Save');
 };
 
 document.querySelectorAll('.drop').forEach(element => {
