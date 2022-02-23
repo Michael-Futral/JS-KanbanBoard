@@ -9,14 +9,14 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Helvetica, Arial, sans-serif;
-  color: #F69C7E;
+  color: #dd400c;
 }
 
 header, footer {
-  background-color: #0a0504;
+  background-color: #b42f15;
   height: 60px;
   justify-content: center;
-  color: white;
+  color: rgb(248, 241, 241);
 }
 
 header h1 {
